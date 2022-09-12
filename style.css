@@ -1,0 +1,571 @@
+/* this is font face  */
+@font-face {
+    font-family: 'boldfont';
+    src: url(Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'thinfont';
+    src: url(Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-Thin.ttf);
+}
+
+@font-face {
+    font-family: semiboldfont;
+    src: url(Cerebri.Sans.Pro-www.Dfonts.org/Cerebri.Sans.Pro/CerebriSansPro-SemiBold.ttf);
+}
+
+body {
+    background-color: #EEF2F7;
+}
+
+/* this css is for section no 1 navbar */
+.navbar-brand {
+    font-family: boldfont;
+    margin-left: 40px;
+    font-size: 28px;
+    color: #0D328D;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #0D328D;
+}
+
+.nav-item {
+    padding: 10px 15px;
+}
+
+.nav-link {
+    font-family: semiboldfont;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+/* this css is for section no 2 of image */
+
+.back-image {
+    background-image: url('images/main\ img.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+}
+
+#para {
+    width: 559px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: white;
+    margin-top: 176px;
+    font-family: semiboldfont;
+}
+
+.btn-1 {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 7px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* this is css for section no 3 four cards */
+.image-1 {
+    max-width: 50%;
+}
+
+.card-1 {
+    text-align: center;
+    box-shadow: 4px 4px #cecccc40;
+}
+
+.card-text1 {
+    padding: 6px 20px 0px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-text2 {
+    padding: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-text3 {
+    padding: 21px 40px 22px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.card-text4 {
+    padding: 13px 20px 3px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.relative-row {
+    position: relative;
+    bottom: 80px;
+}
+
+.btn-2 {
+    color: #FFFFFF;
+    background-color: #0D328D;
+    margin-top: 20px;
+    margin-left: 27px;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btn-2:hover {
+    background-color: #e6e6e6;
+}
+
+#card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#card-heading {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+
+.row-shd {
+    box-shadow: 0px 4px #00000010;
+}
+
+.round-shape {
+    width: 223px;
+    height: 223px;
+    border: 50px solid #0D328D;
+    border-radius: 50%;
+    margin-left: 188px;
+    position: absolute;
+}
+
+.text {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.img-no3 {
+    order: 2;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+/* this is css of section no6 (our services) */
+#text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.our-services .text {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.our-services #image-width {
+    width: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.our-services .card-no1 {
+    position: absolute;
+    top: 56px;
+    left: 160px;
+    z-index: 1;
+}
+
+.our-services .card-no2 {
+    position: absolute;
+    left: 296px;
+    top: 19px;
+}
+
+.our-services .card-no3 {
+    position: absolute;
+    left: 417px;
+    top: 121px;
+    z-index: 1;
+}
+
+.our-services .card-no4 {
+    position: absolute;
+    top: 161px;
+    z-index: 1;
+    left: 50px;
+}
+
+.our-services .card-no5 {
+    position: absolute;
+    top: 285px;
+    z-index: 1;
+    left: 152px;
+}
+
+.our-services .card-no6 {
+    position: absolute;
+    top: 231px;
+    left: 290px;
+}
+
+.our-services .card-round {
+    border-radius: 15px;
+    /* width: 192px; */
+}
+
+.our-services .heading {
+    margin-top: 69px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    font-family: 'semiboldfont';
+}
+
+.our-services .para {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.our-services .row-rel {
+    position: relative;
+}
+
+/* this css is section no 8 */
+.background-form {
+    margin-top: 50px;
+    background-image: url('images/christopher-gower-m_HRfLhgABo-unsplash\ \(1\).png');
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    height: 600px;
+    z-index: 1;
+    box-shadow: 3px 4px 4px rgba(120, 120, 120, 0.25);
+}
+
+.background-form::before {
+    content: '';
+    background: linear-gradient(277.31deg, rgba(50, 76, 139, 0.8) 7.95%, rgba(0, 0, 0, 0.8) 48.48%, rgba(0, 24, 84, 0.8) 102.89%);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-form {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-form h5 {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.text-form p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    font-family: semiboldfont;
+}
+
+.text-form i {
+    font-size: 30px;
+}
+
+.btn-3 {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+::placeholder {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    opacity: 0.5;
+}
+
+/* this is small footer css  */
+.small-footer h1 {
+    position: relative;
+    margin: 81px 0px 0px 37px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #0D328D;
+    font-family: semiboldfont;
+}
+
+h1::after {
+    content: '';
+    width: 770px;
+    height: 4px;
+    background-color: #0D328D;
+    position: absolute;
+    top: 43%;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.small-footer .text {
+    position: relative;
+}
+
+.small-footer span {
+    content: '';
+    border: 55px solid #0B2D82;
+    border-radius: 150px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 319px;
+    bottom: 21px;
+}
+
+/* this is css of main footer section no 10  */
+.main-footer .first-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.main-footer .first-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+}
+
+.main-footer .heading-no2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.main-footer .text-no2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    text-align: left;
+}
+
+.main-footer .heading-3rd {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.main-footer .text-no3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-right: 48px;
+
+}
+
+.main-footer .heading-4th {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.main-footer .style-list {
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.style-list i {
+    color: #0D328D;
+    font-size: 16px;
+    margin-left: 1px;
+}
+
+/* this is the last section no-11  */
+.copyright-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width:400px) {
+    .round-shape {
+        width: 150px;
+        height: 150px;
+        border: 30px solid #0D328D;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width:590px) {
+    .main-footer .first-heading {
+        text-align: center;
+    }
+
+    .main-footer .heading-no2 {
+        text-align: center;
+    }
+
+    .main-footer .text-no2 {
+        text-align: center;
+    }
+
+    .main-footer .heading-3rd {
+        text-align: center;
+    }
+
+    .main-footer .text-no3 {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .main-footer .heading-4th {
+        text-align: center;
+    }
+
+    .main-footer .style-list {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:980px) {
+    #para {
+        font-size: 36px;
+        width: 349px;
+        margin-top: 0px;
+        margin-left: 14px;
+    }
+
+    .btn-1 {
+        margin-left: 14px;
+        font-size: 14px;
+    }
+
+    .col-lg-3 {
+        margin-top: 20px;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+    .btn-center {
+        text-align: center;
+    }
+
+    .round-shape {
+        margin-left: 100px;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .our-services .row-rel {
+        position: static;
+    }
+
+    .our-services .card-no1 {
+        margin-top: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .our-services .card-no2 {
+        margin-top: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .our-services .card-no3 {
+        margin-top: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .our-services .card-no4 {
+        margin-top: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .our-services .card-no5 {
+        margin-top: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .our-services .card-no6 {
+        margin-top: 10px;
+        position: static;
+        top: 0;
+        left: 0;
+    }
+
+    .small-footer {
+        display: none;
+    }
+}
